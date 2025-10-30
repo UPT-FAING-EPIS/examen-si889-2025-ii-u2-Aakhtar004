@@ -1,0 +1,9 @@
+{
+  "AppSettingsProject": "AppSettingsProject.yml",
+  "AppSettingsProject.AppSettings": "AppSettingsProject.AppSettings.yml",
+  "AppSettingsProject.AppSettings.ApiBaseUrl": "AppSettingsProject.AppSettings.yml",
+  "AppSettingsProject.AppSettings.Environment": "AppSettingsProject.AppSettings.yml",
+  "AppSettingsProject.AppSettings.GetSummary": "AppSettingsProject.AppSettings.yml",
+  "AppSettingsProject.AppSettings.Initialize(System.String,System.String)": "AppSettingsProject.AppSettings.yml",
+  "AppSettingsProject.AppSettings.Instance": "AppSettingsProject.AppSettings.yml"
+}

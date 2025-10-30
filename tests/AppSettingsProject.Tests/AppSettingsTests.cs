@@ -1,4 +1,5 @@
 using Xunit;
+using AppSettingsProject;
 
 public class AppSettingsTests
 {

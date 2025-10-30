@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppSettingsProject
+  commentId: N:AppSettingsProject
+  id: AppSettingsProject
+  children:
+  - AppSettingsProject.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: AppSettingsProject
+  nameWithType: AppSettingsProject
+  fullName: AppSettingsProject
+  type: Namespace
+  assemblies:
+  - AppSettingsProject
+references:
+- uid: AppSettingsProject.AppSettings
+  commentId: T:AppSettingsProject.AppSettings
+  parent: AppSettingsProject
+  href: AppSettingsProject.AppSettings.html
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: AppSettingsProject.AppSettings
+- uid: AppSettingsProject
+  commentId: N:AppSettingsProject
+  href: AppSettingsProject.html
+  name: AppSettingsProject
+  nameWithType: AppSettingsProject
+  fullName: AppSettingsProject

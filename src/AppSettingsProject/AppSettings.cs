@@ -1,3 +1,5 @@
+namespace AppSettingsProject;
+
 public class AppSettings
 {
     private static AppSettings _instance;

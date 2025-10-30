@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: AppSettingsProject
+  name: AppSettingsProject
+  type: Namespace
+  items:
+  - uid: AppSettingsProject.AppSettings
+    name: AppSettings
+    type: Class
+memberLayout: SamePage

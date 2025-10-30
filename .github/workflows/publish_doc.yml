@@ -21,13 +21,11 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Install DocFX
-      run: dotnet tool install -g docfx
+    - name: Restore dependencies
+      run: dotnet restore
 
-    - name: Generate Documentation
-      run: |
-        docfx init -q
-        docfx build
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
 
     - name: Generate Class Diagram
       run: |
@@ -39,9 +37,15 @@ jobs:
           +GetSummary() string
         }' > docs/diagram.md
 
+    - name: Install DocFX
+      run: dotnet tool install -g docfx
+
+    - name: Generate Documentation
+      run: docfx build
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs/_site
+        publish_dir: ./_site
         publish_branch: gh-pages

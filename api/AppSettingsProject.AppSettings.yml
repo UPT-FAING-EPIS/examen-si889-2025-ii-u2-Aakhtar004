@@ -1,0 +1,484 @@
+### YamlMime:ManagedReference
+items:
+- uid: AppSettingsProject.AppSettings
+  commentId: T:AppSettingsProject.AppSettings
+  id: AppSettings
+  parent: AppSettingsProject
+  children:
+  - AppSettingsProject.AppSettings.ApiBaseUrl
+  - AppSettingsProject.AppSettings.Environment
+  - AppSettingsProject.AppSettings.GetSummary
+  - AppSettingsProject.AppSettings.Initialize(System.String,System.String)
+  - AppSettingsProject.AppSettings.Instance
+  langs:
+  - csharp
+  - vb
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: AppSettingsProject.AppSettings
+  type: Class
+  source:
+    remote:
+      path: src/AppSettingsProject/AppSettings.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/examen-si889-2025-ii-u2-Aakhtar004.git
+    id: AppSettings
+    path: src/AppSettingsProject/AppSettings.cs
+    startLine: 2
+  assemblies:
+  - AppSettingsProject
+  namespace: AppSettingsProject
+  syntax:
+    content: public class AppSettings
+    content.vb: Public Class AppSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AppSettingsProject.AppSettings.Environment
+  commentId: P:AppSettingsProject.AppSettings.Environment
+  id: Environment
+  parent: AppSettingsProject.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: AppSettings.Environment
+  fullName: AppSettingsProject.AppSettings.Environment
+  type: Property
+  source:
+    remote:
+      path: src/AppSettingsProject/AppSettings.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/examen-si889-2025-ii-u2-Aakhtar004.git
+    id: Environment
+    path: src/AppSettingsProject/AppSettings.cs
+    startLine: 7
+  assemblies:
+  - AppSettingsProject
+  namespace: AppSettingsProject
+  syntax:
+    content: public string Environment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Environment As String
+  overload: AppSettingsProject.AppSettings.Environment*
+- uid: AppSettingsProject.AppSettings.ApiBaseUrl
+  commentId: P:AppSettingsProject.AppSettings.ApiBaseUrl
+  id: ApiBaseUrl
+  parent: AppSettingsProject.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: ApiBaseUrl
+  nameWithType: AppSettings.ApiBaseUrl
+  fullName: AppSettingsProject.AppSettings.ApiBaseUrl
+  type: Property
+  source:
+    remote:
+      path: src/AppSettingsProject/AppSettings.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/examen-si889-2025-ii-u2-Aakhtar004.git
+    id: ApiBaseUrl
+    path: src/AppSettingsProject/AppSettings.cs
+    startLine: 8
+  assemblies:
+  - AppSettingsProject
+  namespace: AppSettingsProject
+  syntax:
+    content: public string ApiBaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApiBaseUrl As String
+  overload: AppSettingsProject.AppSettings.ApiBaseUrl*
+- uid: AppSettingsProject.AppSettings.Instance
+  commentId: P:AppSettingsProject.AppSettings.Instance
+  id: Instance
+  parent: AppSettingsProject.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: AppSettings.Instance
+  fullName: AppSettingsProject.AppSettings.Instance
+  type: Property
+  source:
+    remote:
+      path: src/AppSettingsProject/AppSettings.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/examen-si889-2025-ii-u2-Aakhtar004.git
+    id: Instance
+    path: src/AppSettingsProject/AppSettings.cs
+    startLine: 12
+  assemblies:
+  - AppSettingsProject
+  namespace: AppSettingsProject
+  syntax:
+    content: public static AppSettings Instance { get; }
+    parameters: []
+    return:
+      type: AppSettingsProject.AppSettings
+    content.vb: Public Shared ReadOnly Property Instance As AppSettings
+  overload: AppSettingsProject.AppSettings.Instance*
+- uid: AppSettingsProject.AppSettings.Initialize(System.String,System.String)
+  commentId: M:AppSettingsProject.AppSettings.Initialize(System.String,System.String)
+  id: Initialize(System.String,System.String)
+  parent: AppSettingsProject.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Initialize(string, string)
+  nameWithType: AppSettings.Initialize(string, string)
+  fullName: AppSettingsProject.AppSettings.Initialize(string, string)
+  type: Method
+  source:
+    remote:
+      path: src/AppSettingsProject/AppSettings.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/examen-si889-2025-ii-u2-Aakhtar004.git
+    id: Initialize
+    path: src/AppSettingsProject/AppSettings.cs
+    startLine: 30
+  assemblies:
+  - AppSettingsProject
+  namespace: AppSettingsProject
+  syntax:
+    content: public void Initialize(string environment, string apiBaseUrl)
+    parameters:
+    - id: environment
+      type: System.String
+    - id: apiBaseUrl
+      type: System.String
+    content.vb: Public Sub Initialize(environment As String, apiBaseUrl As String)
+  overload: AppSettingsProject.AppSettings.Initialize*
+  nameWithType.vb: AppSettings.Initialize(String, String)
+  fullName.vb: AppSettingsProject.AppSettings.Initialize(String, String)
+  name.vb: Initialize(String, String)
+- uid: AppSettingsProject.AppSettings.GetSummary
+  commentId: M:AppSettingsProject.AppSettings.GetSummary
+  id: GetSummary
+  parent: AppSettingsProject.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: GetSummary()
+  nameWithType: AppSettings.GetSummary()
+  fullName: AppSettingsProject.AppSettings.GetSummary()
+  type: Method
+  source:
+    remote:
+      path: src/AppSettingsProject/AppSettings.cs
+      branch: main
+      repo: https://github.com/UPT-FAING-EPIS/examen-si889-2025-ii-u2-Aakhtar004.git
+    id: GetSummary
+    path: src/AppSettingsProject/AppSettings.cs
+    startLine: 36
+  assemblies:
+  - AppSettingsProject
+  namespace: AppSettingsProject
+  syntax:
+    content: public string GetSummary()
+    return:
+      type: System.String
+    content.vb: Public Function GetSummary() As String
+  overload: AppSettingsProject.AppSettings.GetSummary*
+references:
+- uid: AppSettingsProject
+  commentId: N:AppSettingsProject
+  href: AppSettingsProject.html
+  name: AppSettingsProject
+  nameWithType: AppSettingsProject
+  fullName: AppSettingsProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AppSettingsProject.AppSettings.Environment*
+  commentId: Overload:AppSettingsProject.AppSettings.Environment
+  href: AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Environment
+  name: Environment
+  nameWithType: AppSettings.Environment
+  fullName: AppSettingsProject.AppSettings.Environment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: AppSettingsProject.AppSettings.ApiBaseUrl*
+  commentId: Overload:AppSettingsProject.AppSettings.ApiBaseUrl
+  href: AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_ApiBaseUrl
+  name: ApiBaseUrl
+  nameWithType: AppSettings.ApiBaseUrl
+  fullName: AppSettingsProject.AppSettings.ApiBaseUrl
+- uid: AppSettingsProject.AppSettings.Instance*
+  commentId: Overload:AppSettingsProject.AppSettings.Instance
+  href: AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Instance
+  name: Instance
+  nameWithType: AppSettings.Instance
+  fullName: AppSettingsProject.AppSettings.Instance
+- uid: AppSettingsProject.AppSettings
+  commentId: T:AppSettingsProject.AppSettings
+  parent: AppSettingsProject
+  href: AppSettingsProject.AppSettings.html
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: AppSettingsProject.AppSettings
+- uid: AppSettingsProject.AppSettings.Initialize*
+  commentId: Overload:AppSettingsProject.AppSettings.Initialize
+  href: AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Initialize_System_String_System_String_
+  name: Initialize
+  nameWithType: AppSettings.Initialize
+  fullName: AppSettingsProject.AppSettings.Initialize
+- uid: AppSettingsProject.AppSettings.GetSummary*
+  commentId: Overload:AppSettingsProject.AppSettings.GetSummary
+  href: AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_GetSummary
+  name: GetSummary
+  nameWithType: AppSettings.GetSummary
+  fullName: AppSettingsProject.AppSettings.GetSummary

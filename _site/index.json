@@ -17,12 +17,12 @@
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started",
-    "summary": "Getting Started"
+    "summary": "Getting Started Requisitos previos .NET 8.0 SDK instalado. Ejecutar la aplicación Clona el repositorio. Navega a src/AppSettingsProject. Ejecuta dotnet run. Ejecutar pruebas En la raíz del proyecto: dotnet test. Generar documentación La documentación se genera automáticamente en GitHub Actions y se publica en GitHub Pages."
   },
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction",
-    "summary": "Introduction"
+    "summary": "Introduction Esta aplicación demuestra el uso del patrón Singleton en la clase AppSettings para manejar configuraciones globales de la aplicación. La clase permite inicializar y modificar valores como el entorno y la URL de la API de manera centralizada. Características principales: Patrón Singleton: Garantiza una única instancia de AppSettings en toda la aplicación. Configuraciones dinámicas: Permite cambiar valores en tiempo de ejecución. Pruebas unitarias: Incluye pruebas con xUnit para validar el comportamiento. Para más detalles, consulta la documentación de la API."
   },
   "index.html": {
     "href": "index.html",

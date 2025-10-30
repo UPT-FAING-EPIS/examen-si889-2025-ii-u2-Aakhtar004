@@ -1,0 +1,37 @@
+{
+  "README.html": {
+    "href": "README.html",
+    "title": "AppSettings Application",
+    "summary": "AppSettings Application Esta aplicación demuestra el uso del patrón Singleton en la clase AppSettings para manejar configuraciones de la aplicación. Información para Probar el Sistema Requisitos Previos .NET 8.0 SDK instalado. Ejecutar la Aplicación Navega al directorio src/AppSettingsProject. Ejecuta dotnet run. Esto inicializará AppSettings con valores de producción y mostrará el resumen. Luego cambiará a QA y mostrará el resumen actualizado. Ejecutar las Pruebas Navega al directorio raíz del proyecto. Ejecuta dotnet test. Esto ejecutará las pruebas unitarias y verificará que el Singleton funcione correctamente. Generar Documentación La documentación se genera automáticamente en GitHub Actions y se publica en GitHub Pages. Reporte de Cobertura El reporte de cobertura se genera en releases y se publica en GitHub Pages bajo /coverage."
+  },
+  "api/AppSettingsProject.AppSettings.html": {
+    "href": "api/AppSettingsProject.AppSettings.html",
+    "title": "Class AppSettings",
+    "summary": "Class AppSettings Namespace AppSettingsProject Assembly AppSettingsProject.dll public class AppSettings Inheritance object AppSettings Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ApiBaseUrl public string ApiBaseUrl { get; set; } Property Value string Environment public string Environment { get; set; } Property Value string Instance public static AppSettings Instance { get; } Property Value AppSettings Methods GetSummary() public string GetSummary() Returns string Initialize(string, string) public void Initialize(string environment, string apiBaseUrl) Parameters environment string apiBaseUrl string"
+  },
+  "api/AppSettingsProject.html": {
+    "href": "api/AppSettingsProject.html",
+    "title": "Namespace AppSettingsProject",
+    "summary": "Namespace AppSettingsProject Classes AppSettings"
+  },
+  "docs/diagram.html": {
+    "href": "docs/diagram.html",
+    "title": "",
+    "summary": "classDiagram class AppSettings { +string Environment +string ApiBaseUrl +Initialize(string, string) +GetSummary() string }"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE.",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

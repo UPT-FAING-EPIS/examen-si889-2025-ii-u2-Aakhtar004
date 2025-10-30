@@ -1,0 +1,83 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: AppSettingsProject
+  name: AppSettingsProject
+  href: api/AppSettingsProject.html
+  commentId: N:AppSettingsProject
+  fullName: AppSettingsProject
+  nameWithType: AppSettingsProject
+- uid: AppSettingsProject.AppSettings
+  name: AppSettings
+  href: api/AppSettingsProject.AppSettings.html
+  commentId: T:AppSettingsProject.AppSettings
+  fullName: AppSettingsProject.AppSettings
+  nameWithType: AppSettings
+- uid: AppSettingsProject.AppSettings.ApiBaseUrl
+  name: ApiBaseUrl
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_ApiBaseUrl
+  commentId: P:AppSettingsProject.AppSettings.ApiBaseUrl
+  fullName: AppSettingsProject.AppSettings.ApiBaseUrl
+  nameWithType: AppSettings.ApiBaseUrl
+- uid: AppSettingsProject.AppSettings.ApiBaseUrl*
+  name: ApiBaseUrl
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_ApiBaseUrl_
+  commentId: Overload:AppSettingsProject.AppSettings.ApiBaseUrl
+  isSpec: "True"
+  fullName: AppSettingsProject.AppSettings.ApiBaseUrl
+  nameWithType: AppSettings.ApiBaseUrl
+- uid: AppSettingsProject.AppSettings.Environment
+  name: Environment
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Environment
+  commentId: P:AppSettingsProject.AppSettings.Environment
+  fullName: AppSettingsProject.AppSettings.Environment
+  nameWithType: AppSettings.Environment
+- uid: AppSettingsProject.AppSettings.Environment*
+  name: Environment
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Environment_
+  commentId: Overload:AppSettingsProject.AppSettings.Environment
+  isSpec: "True"
+  fullName: AppSettingsProject.AppSettings.Environment
+  nameWithType: AppSettings.Environment
+- uid: AppSettingsProject.AppSettings.GetSummary
+  name: GetSummary()
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_GetSummary
+  commentId: M:AppSettingsProject.AppSettings.GetSummary
+  fullName: AppSettingsProject.AppSettings.GetSummary()
+  nameWithType: AppSettings.GetSummary()
+- uid: AppSettingsProject.AppSettings.GetSummary*
+  name: GetSummary
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_GetSummary_
+  commentId: Overload:AppSettingsProject.AppSettings.GetSummary
+  isSpec: "True"
+  fullName: AppSettingsProject.AppSettings.GetSummary
+  nameWithType: AppSettings.GetSummary
+- uid: AppSettingsProject.AppSettings.Initialize(System.String,System.String)
+  name: Initialize(string, string)
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Initialize_System_String_System_String_
+  commentId: M:AppSettingsProject.AppSettings.Initialize(System.String,System.String)
+  name.vb: Initialize(String, String)
+  fullName: AppSettingsProject.AppSettings.Initialize(string, string)
+  fullName.vb: AppSettingsProject.AppSettings.Initialize(String, String)
+  nameWithType: AppSettings.Initialize(string, string)
+  nameWithType.vb: AppSettings.Initialize(String, String)
+- uid: AppSettingsProject.AppSettings.Initialize*
+  name: Initialize
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Initialize_
+  commentId: Overload:AppSettingsProject.AppSettings.Initialize
+  isSpec: "True"
+  fullName: AppSettingsProject.AppSettings.Initialize
+  nameWithType: AppSettings.Initialize
+- uid: AppSettingsProject.AppSettings.Instance
+  name: Instance
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Instance
+  commentId: P:AppSettingsProject.AppSettings.Instance
+  fullName: AppSettingsProject.AppSettings.Instance
+  nameWithType: AppSettings.Instance
+- uid: AppSettingsProject.AppSettings.Instance*
+  name: Instance
+  href: api/AppSettingsProject.AppSettings.html#AppSettingsProject_AppSettings_Instance_
+  commentId: Overload:AppSettingsProject.AppSettings.Instance
+  isSpec: "True"
+  fullName: AppSettingsProject.AppSettings.Instance
+  nameWithType: AppSettings.Instance
